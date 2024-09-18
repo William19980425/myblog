@@ -527,6 +527,51 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      项目名称：直接在根目录进行修改
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#settingspy" class="md-nav__link">
+    <span class="md-ellipsis">
+      settings.py中的两项：
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#urlspy" class="md-nav__link">
+    <span class="md-ellipsis">
+      urls.py文件：
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wsgipy" class="md-nav__link">
+    <span class="md-ellipsis">
+      wsgi.py文件：
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#managepy" class="md-nav__link">
+    <span class="md-ellipsis">
+      manage.py文件：
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#apt-get-update" class="md-nav__link">
     <span class="md-ellipsis">
       最后apt-get update 更新所有能更新的软件
@@ -766,6 +811,51 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      项目名称：直接在根目录进行修改
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#settingspy" class="md-nav__link">
+    <span class="md-ellipsis">
+      settings.py中的两项：
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#urlspy" class="md-nav__link">
+    <span class="md-ellipsis">
+      urls.py文件：
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wsgipy" class="md-nav__link">
+    <span class="md-ellipsis">
+      wsgi.py文件：
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#managepy" class="md-nav__link">
+    <span class="md-ellipsis">
+      manage.py文件：
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#apt-get-update" class="md-nav__link">
     <span class="md-ellipsis">
       最后apt-get update 更新所有能更新的软件
@@ -797,27 +887,15 @@
   <h1>Django</h1>
 
 <h2 id="django">修改django项目的根目录名称</h2>
-<ol>
-<li>
-<p>项目名称：直接在根目录进行修改</p>
-</li>
-<li>
-<p>settings.py中的两项：</p>
-</li>
-</ol>
+<h4 id="_1">项目名称：直接在根目录进行修改</h4>
+<h4 id="settingspy">settings.py中的两项：</h4>
 <p><code>WSGI_APPLICATION = 'ExamOnline.wsgi.application'
 ROOT_URLCONF = 'ExamOnline.urls'</code></p>
-<ol>
-<li>urls.py文件  </li>
-</ol>
+<h4 id="urlspy">urls.py文件：</h4>
 <p><code>from ExamOnline.settings import MEDIA_ROOT</code></p>
-<ol>
-<li>wsgi.py文件</li>
-</ol>
+<h4 id="wsgipy">wsgi.py文件：</h4>
 <p><code>os.environ.setdefault("DJANGO_SETTINGS_MODULE", "ExamOnline.settings")</code></p>
-<ol>
-<li>manage.py文件</li>
-</ol>
+<h4 id="managepy">manage.py文件：</h4>
 <p><code>os.environ.setdefault("DJANGO_SETTINGS_MODULE", "ExamOnline.settings")</code></p>
 <h3 id="apt-get-update">最后<code>apt-get update</code> 更新所有能更新的软件</h3>
 
